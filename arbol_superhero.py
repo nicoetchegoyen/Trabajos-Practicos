@@ -63,8 +63,9 @@ if pos:
 else:
     print('no esta')
 print()
-arbol.inorden()
-print("--------------------")
+
+# arbol.inorden()
+# print("--------------------")
 arbol.by_level()
 print("--------------------")
 
@@ -80,5 +81,7 @@ print("--------------------")
 print("f.Nombres de superhéroes en orden descendente:")
 inorden_descendente(arbol.root)
 print("--------------------")
+
+
 
 
