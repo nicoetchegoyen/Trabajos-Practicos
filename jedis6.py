@@ -72,20 +72,16 @@ print("f.JEDIS CON SABLE COLOR VERDE")
 name_tree.inorden_file_lightsaber('jedis.txt', 'green')
 print("---------------------------------")
 
-#g. listar todos los Jedi cuyos maestros están en el archivo;
-
-
-print("h. Togruta")
-pos = specie_tree.search('togruta')
-if pos:
-    print(get_value_from_file('jedis.txt', pos.other_values))
-else:
-    print('no Togruta')
+print('g. ')
+name_tree.inorden_maestros('jedis.txt')
 print("---------------------------------")
-print("")
 
-
-
+# print("h. Togruta o Cerean")
+# species = ["togruta", "cerean"]
+# for specie in species:
+#     print(f"Jedi de especie '{specie}':")
+#     name_tree.search_by_coincidence(specie)
+#     print("---------------------------------")
 
 print("i.JEDIS QUE EMPIEZAN CON 'A'")
 name_tree.inorden_start_with_jedi('A')
