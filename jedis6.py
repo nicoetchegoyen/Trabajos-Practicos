@@ -82,7 +82,6 @@ print("---------------------------------")
 #     print(f"Jedi de especie '{specie}':")
 #     name_tree.search_by_coincidence(specie)
 #     print("---------------------------------")
-
 print("i.JEDIS QUE EMPIEZAN CON 'A'")
 name_tree.inorden_start_with_jedi('A')
 print("")
